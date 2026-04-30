@@ -79,7 +79,7 @@
 --color-fourth: #2563EB;
 --color-quinary: #848285;
 --color-sixth: #FAF8FF;
---color-linear-gradient: linear-gradient(90deg,rgba(28, 38, 48, 1) 0%, rgba(16, 18, 31, 1) 50%, rgba(7, 9, 6, 1) 100%); ;
+--color-linear-gradient: linear-gradient(90deg,rgb(11, 86, 161) 0%, rgb(15, 24, 77) 50%, rgba(7, 9, 6, 1) 100%); ;
 
 
 }
@@ -640,13 +640,14 @@ footer {
     flex: 1;
     min-width: 0;
     height: 3rem;
-    background-color: var(--color-third);
     padding: 1rem;
     border-radius: var(--radius-lg);
     text-align: left;
+    background: var(--color-linear-gradient);
 }
 
 .edad-item {
     font-family: var(--font-secondary);
     font-weight: var(--weight-bold);
+    color: var(--color-ligth);
 }
