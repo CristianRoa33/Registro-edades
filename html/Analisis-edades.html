@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Análisis de Edades</title>
+</head>
+
+<body class="analysis-body">
+
+    <header class="analysis-header">
+        <div>
+            <img src="/asset/diagrama.svg" alt="Imagen_diagrama" class="header-icon">
+        </div>   
+
+        <div class="header-text">
+            <h1>
+                <a href="/index.html" class="header-title">Registro de edades</a>
+            </h1>
+        </div>
+
+        <div>
+            <img src="/asset/perfil_1.svg" alt="usuario-icon" class="user-icon">
+        </div>
+
+        <!-- <button id="toggleTheme">
+            🌙/☀️
+        </button> -->
+    </header>
+
+    <main class="analysis-main">
+        <section class="analysis-results">
+
+            <h2 class="results-title">
+                Resultados del Análisis
+            </h2>
+            <p class="results-paragraph">
+                 Análisis de las edades ingresadas
+            </p>  
+
+            <div class="container-persons">
+
+                <div class="personas" id="minimo">
+                    <h3 id="titulo-minimo" class="titulo"> </h3>
+                    <p id="num-minimo" class="dato"></p>
+                    <p id="dato-min" class="pieparafo"></p>
+                </div>
+                <div class="personas" id="maximo">
+                    <h3 id="titulo-maximo" class="titulo"> </h3>
+                    <p id="num-maximo" class="dato"></p>
+                    <p id="dato-max" class="pieparafo"></p>
+                </div>
+                <div class="personas" id="estadistica">
+                    <h3 id="titulo-estadistica" class="titulo"> </h3>
+                    <p id="num-estadistica" class="dato"></p>
+                    <p id="dato-estadistica" class="pieparafo"></p>
+                </div>
+
+            </div>
+
+        </section>
+        
+        <section class="age-distribution">
+
+            <h3>
+                Distribución por edad
+            </h3>
+
+            <div id="resultados">
+                <div class="barra-titulo">
+                    <p>
+                        Menor Edad
+                    </p>
+                    <div class="barra" id="barraMenores">
+                        <span id="datomenores" hidden> 
+
+                        </span>
+                    </div>
+                </div>
+                <div class="barra-titulo">
+                    <p>
+                        Mayor Edad
+                    </p>
+                    <div class="barra" id="barraAdultos">
+                        <span id="datoadultos" hidden>
+
+                        </span>
+                    </div>
+                </div>
+                <div class="barra-titulo">
+                    <p>
+                        Adulto Mayor
+                    </p>  
+                    <div class="barra" id="barraMayores">
+                        <span id="datomayores" hidden>
+
+                        </span>
+                    </div>
+                </div>
+            </div>    
+
+        </section>
+    
+        <article class="analysis-article">
+
+            <h3 id="title-article">
+                Idea clave
+            </h3>
+
+            <p id="texto-paragrah">
+               
+            </p>
+
+        </article>
+          
+        <section class="analysis-ages">
+                <H2>
+                    Años registrados
+                </H2>
+                <div id="container-ages">
+                    <!-- Las edades ingresadas se mostrarán aquí -->
+                </div>    
+        </section>
+        
+    </main>
+
+    <footer class="analysis-footer">
+        <nav>
+            <ul class="footer-nav">
+                <li>
+                    <a href="/index.html">
+                        <img src="/asset/editar.svg" alt="Entries" class="icon-entries">
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/Analisis-edades.html">
+                        <img src="/asset/datos.svg" alt="Analysis" class="icon-analysis">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    
+  <script src="/javascript/analisis.js"></script>
+</body>
+</html>

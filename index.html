@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Registro de Edades</title>
+</head>
+<body>
+
+    <header>
+        <div>
+            <img src="/asset/diagrama.svg" alt="Imagen_diagrama" class="header-icon">
+        </div>
+
+        <div class="header-text">
+            <h1 >
+                <a href="/index.html" class="header-title">Registro de edades</a>
+            </h1>
+        </div>
+
+        <div>
+            <img src="/asset/perfil_1.svg" alt="usuario-icon" class="user-icon">
+        </div>
+
+        <!-- <button id="toggleTheme">
+            🌙/☀️
+        </button> -->
+    </header>
+
+    <main>
+
+        <section class="progress-section">
+
+            <div>
+                <h1 class="progreso">
+                    Progreso de Ingreso
+                </h1>
+            </div>
+            <div id="barraProgreso">
+                <div id="barraPro"><span id="porcentajeTexto" hidden>0%</span></div>
+            </div>  
+
+            <div class="text-persons">
+                <p>Personas: 
+                    <span id="contadorPersonas">
+                        0 de 10
+                    </span>
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/asset/usuario.svg" alt="Icono de usuario" class="icon-user">
+                        <h2 class="card-title">
+                            Ingrese Edad de Usuario
+                        </h2>
+                        <p class="card-paragraph">
+                            proporcione la edad del individuo para el estudio demográfico.
+                        </p>
+                        <input type="number" id="edadInput" placeholder="Ingrese su edad aquí ejemplo 25 años" min="1" max="120">
+                        <p id="mensajeEdad">
+                            Rango Valido 1 - 120 años
+                        </p>
+                        <button id="agregarEdad">
+                            Agregar
+                        </button>
+                        <div id="modalMensajes" class="modal" style="display:none;">
+                            <div class="modal-content">
+                                <span id="cerrarModal">
+                                    X
+                                </span>
+                                <p id="mensajeModal">
+                                    <!-- El mensaje se insertará aquí dinámicamente -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>    
+
+    <aside>
+        <div class="header-aside">
+            <h2 class="aside-title">
+                Edades Ingresadas
+            </h2>
+            <div class="button-entries">
+                Entradas 
+                <span id="contadorEntradas">
+                    0
+                </span>
+            </div>
+        </div>
+
+        <div class="contenedor-edad">
+            <ul id="listaEdades">
+                <li class="items-edad">
+                    <!-- Las edades ingresadas se mostrarán aquí -->
+                     <div class="item"><p> <span id="edadPersonas" ></span></p></div>
+                </li>
+            </ul>
+        </div>
+
+    </aside>
+    
+    <footer>
+        <nav>
+            <ul class="footer-nav">
+                <li>
+                    <a href="/index.html">
+                        <img src="/asset/editar.svg" alt="Entries" class="icon-entries">
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/Analisis-edades.html">
+                        <img src="/asset/datos.svg" alt="Analysis" class="icon-analysis">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="/javascript/app.js"></script>
+</body>
+</html>
