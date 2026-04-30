@@ -468,7 +468,6 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr; 
     grid-template-rows: auto 1fr auto; 
-    gap: 0.5rem;
     min-height: 100vh;
 }
 
