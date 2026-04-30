@@ -493,6 +493,7 @@ footer {
     grid-template-rows: auto 1fr auto;
     gap: 2rem; 
     padding: 1rem;
+    height: 18rem;
 }
 
 .analysis-results {
@@ -528,16 +529,16 @@ footer {
 .personas {
     flex: 1;
     min-width: 0;
-    height: 8.7rem;
+    height: 6.7rem;
     border-radius: var(--radius-lg);
     background-color: var(--color-third);
     text-align: left;
-    padding: 1.5rem;
+    padding: 0.3rem 1rem;
 }
 
 .titulo {
     font-family: var(--font-secondary);
-    font-size: var(--text-xl);
+    font-size: var(--text-base);
     margin-bottom: 0.5rem;
 }
 
@@ -545,7 +546,7 @@ footer {
     font-family: var(--font-secondary);
     font-size: var(--text-2xl);
     font-weight: var(--weight-medium);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
 }
 
 .pieparafo {
@@ -560,11 +561,12 @@ footer {
     border-radius: var(--radius-lg);
     padding: 1rem;
     font-family: var(--font-secondary);
+    height: 17rem;
 }
 
 #resultados {
   height: 10rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -600,7 +602,7 @@ footer {
     border-radius: var(--radius-lg);
     padding: 1rem;
     text-align: left;
-    height: 19rem;
+    height: 17rem;
 }
 
 #title-article {
@@ -626,6 +628,7 @@ footer {
     gap: 1rem;
     padding: 1rem;
     height: 8rem;
+    background-color: red;
 }
 
 #container-ages {
